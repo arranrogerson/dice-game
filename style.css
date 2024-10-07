@@ -1,0 +1,40 @@
+html {
+	background-color: darkgreen;
+}
+
+#main-text {
+	color: salmon;
+	text-align: center;
+	font-size: 100px;
+}
+
+.dice-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	margin: 100px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+#roll-button {
+	width: auto;
+	height:100px;
+	font-size: 50px;
+	background-color: salmon;
+	color: white;
+	padding: 10px 50px;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.roll-button-container {
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+}
